@@ -7,8 +7,8 @@ CREATE TABLE IF NOT EXISTS contactos(
 
 INSERT INTO contactos(nombre,email,telefono)
 VALUES 
-("Dejah Thoris","dejah@email.com","11111111"),
-("John Carter","john@email.com","22222222");
+('Dejah Thoris','dejah@email.com','11111111'),
+('John Carter','john@email.com','22222222');
 
 
 create table public.prueba (
