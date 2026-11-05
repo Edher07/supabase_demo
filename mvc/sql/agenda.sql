@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS contactos(
-    id_contacto INT AUTOINCREMENT PRIMARY KEY,
+    id_contactos INT AUTOINCREMENT PRIMARY KEY,
     nombre VARCHAR (100) NOT NULL,
     email VARCHAR (100) NOT NULL,
     telefono VARCHAR (13) NOT NULL,

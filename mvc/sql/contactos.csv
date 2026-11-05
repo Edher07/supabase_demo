@@ -1,3 +1,4 @@
-nombre,email,telefono
-Dejah Thoris,dejah@email.com,11111111
-Jhon Carter,john@email.com,22222222
+id_contactos,created_at,nombre,email,telefono
+1,2026-11-03 15:57:58.347589+00,Dejah Thoris,"dejah@email.com
+",11111111
+2,2026-11-03 15:58:38.95342+00,John Carter,john@carter.com,22222222

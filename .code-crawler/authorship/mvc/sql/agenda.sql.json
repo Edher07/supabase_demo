@@ -2,57 +2,35 @@
   "filePath": "mvc/sql/agenda.sql",
   "lines": [
     {
-      "line": 9,
+      "line": 1,
       "author": "human",
-      "confidence": 0.3733333333333333,
+      "confidence": 0.8400000000000001,
       "aiEdits": 0,
-      "humanEdits": 14,
+      "humanEdits": 1,
       "lastEditType": "human",
-      "lastEditTimestamp": 1793811687881,
+      "lastEditTimestamp": 1793842799355,
       "signals": {
-        "typingRhythm": 0.3,
+        "typingRhythm": 0.5,
         "editSize": 0.07999999999999996,
-        "cursorMovement": 0.3,
-        "editSequence": 0.8300000000000001,
+        "cursorMovement": 0.5,
+        "editSequence": 0.5,
         "undoFrequency": 0.5,
         "extensionSource": 0.5,
         "velocityProfile": 0.5,
         "selectionPattern": 0.5,
-        "pastePattern": 0.2,
+        "pastePattern": 0.5,
         "deletionPattern": 0.5,
         "pausePattern": 0.5
-      }
-    },
-    {
-      "line": 10,
-      "author": "human",
-      "confidence": 0.92,
-      "aiEdits": 0,
-      "humanEdits": 12,
-      "lastEditType": "human",
-      "lastEditTimestamp": 1793811704841,
-      "signals": {
-        "typingRhythm": 0.125,
-        "editSize": 0.07999999999999996,
-        "cursorMovement": 0.3,
-        "editSequence": 0.67,
-        "undoFrequency": 0.1,
-        "extensionSource": 0.5,
-        "velocityProfile": 0.5,
-        "selectionPattern": 0.5,
-        "pastePattern": 0.2,
-        "deletionPattern": 0.15,
-        "pausePattern": 0.15
       }
     }
   ],
   "summary": {
-    "totalLines": 2,
+    "totalLines": 1,
     "aiLines": 0,
-    "humanLines": 2,
+    "humanLines": 1,
     "mixedLines": 0,
     "aiPercentage": 0,
     "humanPercentage": 100
   },
-  "lastUpdated": 1793811706248
+  "lastUpdated": 1793847734885
 }
