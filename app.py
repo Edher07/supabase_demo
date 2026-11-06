@@ -1,17 +1,16 @@
-import os
-from supabase import create_client, Client
-from dotenv import load_dotenv
+import web
 
-load_dotenv()
+from mvc.controllers.index import Index
+from mvc.controllers.contactos import Contactos
 
-supabase: Client = create_client(
-    os.environ.get("SUPABASE_URL"),
-    os.environ.get("SUPABASE_KEY")
+urls = (
+    '/', 'Index',
+    '/contactos', 'Contactos',
 )
 
-def obtenerContactos():
-    # SELECT * FROM contactos;
-    response = supabase.table("contactos").select("*").execute()
-    return response.data
+app = web.application(urls, globals())
 
-print(obtenerContactos())
+if __name__ == "__main__":
+    app = web.application(urls, globals())
+    app.run()
+

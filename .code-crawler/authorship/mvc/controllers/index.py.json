@@ -1,0 +1,36 @@
+{
+  "filePath": "mvc/controllers/index.py",
+  "lines": [
+    {
+      "line": 0,
+      "author": "mixed",
+      "confidence": 0.19520754716981115,
+      "aiEdits": 1,
+      "humanEdits": 3,
+      "lastEditType": "human",
+      "lastEditTimestamp": 1793924042950,
+      "signals": {
+        "typingRhythm": 0.675,
+        "editSize": 0.95,
+        "cursorMovement": 0.5,
+        "editSequence": 0.8300000000000001,
+        "undoFrequency": 0.5,
+        "extensionSource": 0.5,
+        "velocityProfile": 0.5,
+        "selectionPattern": 0.5,
+        "pastePattern": 0.2,
+        "deletionPattern": 0.15,
+        "pausePattern": 0.5
+      }
+    }
+  ],
+  "summary": {
+    "totalLines": 1,
+    "aiLines": 0,
+    "humanLines": 0,
+    "mixedLines": 1,
+    "aiPercentage": 0,
+    "humanPercentage": 0
+  },
+  "lastUpdated": 1793924600938
+}

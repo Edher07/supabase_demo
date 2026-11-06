@@ -20,7 +20,7 @@ class ModelContactos:
         response = self.supabase.table("contactos").select("*").execute()
 
         return response.data
-        )
+        
 
     def buscarContactos(self, id_contactos: int):
         # SELECT * FROM contactos WHERE id_contacto = <id>;
@@ -30,20 +30,18 @@ class ModelContactos:
         
 
     def insertarContactos(self, nombre: str, email: str , telefono: str):
-        # SELECT * FROM contactos WHERE id_contacto = <id>;
+        # INSERT INTO contactos(nombre,email,telefono) VALUES (?,?,?)
         response = self.supabase.table("contactos").insert({"nombre": nombre, "email": email, "telefono": telefono,}).execute()
         
         return response.data
         
 
     def borrarContactos(self, id_contactos: int):
-        # SELECT * FROM contactos WHERE id_contacto = <id>;
         response = self.supabase.table("contactos").delete("*").eq("id_contactos", id_contactos).execute()
        
         return response.data
 
     def actualizarContactos(self, id_contactos: int , nombre: str, email: str , telefono: str):
-        # SELECT * FROM contactos WHERE id_contacto = <id>;
         response = self.supabase.table("contactos").update({"nombre": nombre, "email": email, "telefono": telefono,}).eq("id_contactos", id_contactos).execute()
         
         return response.data
@@ -52,6 +50,6 @@ if __name__ == "__main__":
     model_contactos = ModelContactos()  # Crea una instancia
     print(model_contactos.obtenerContactos())
     print(model_contactos.buscarContactos())
-    print(model_contactos.insertarContactos())
+    print(model_contactos.insertarContactos("Carthoris","carthoris@gmail","333333"))
     print(model_contactos.borrarContactos())
     print(model_contactos.actualizarContactos())
