@@ -9,7 +9,12 @@ class Contactos:
 
         model_contactos = ModelContactos()  
 
+        #Almacena en los datos los registros recibidos de Supabase 
+        datos = model_contactos.obtenerContactos()
 
-        return render.contactos() #type: ignore
+        print(datos)
+
+        #Envia los datos a contactos.html los datos de Supabase 
+        return render.contactos(datos) #type: ignore
         
 

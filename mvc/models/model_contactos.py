@@ -49,7 +49,7 @@ class ModelContactos:
 if __name__ == "__main__":
     model_contactos = ModelContactos()  # Crea una instancia
     print(model_contactos.obtenerContactos())
-    print(model_contactos.buscarContactos())
+    print(model_contactos.buscarContactos(2))
     print(model_contactos.insertarContactos("Carthoris","carthoris@gmail","333333"))
-    print(model_contactos.borrarContactos())
-    print(model_contactos.actualizarContactos())
+    print(model_contactos.borrarContactos(4))
+    print(model_contactos.actualizarContactos(5,"Juan","juan@gmail","8888888"))
