@@ -10,11 +10,9 @@ class BorrarContactos:
         model_contactos = ModelContactos()  
 
         #Almacena en los datos los registros recibidos de Supabase 
-        datos = model_contactos.borrar_Contactos(id_contacto)
+        datos = model_contactos.borrarContactos(int(id_contacto))
 
         print(datos)
 
         #Envia los datos a contactos.html los datos de Supabase 
         return render.borrar_contactos(datos) #type: ignore
-        
-

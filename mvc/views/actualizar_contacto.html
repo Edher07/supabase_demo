@@ -11,8 +11,9 @@ $if contacto != []:
         <label for="telefono">Teléfono:</label>
         <input type="text" name="telefono" id="telefono" value="$contacto[0]['telefono']"><br>
 
+        <input type="submit" value="Actualizar">
         <input type="button" onclick="location.href='/contactos'" value="Regresar">
     </form>
 $else:
-    <h2>Contacto no encontrado</h2>
+    <h2>Contacto actualizado correctamente</h2>
     <a href="/contactos">Regresar</a>

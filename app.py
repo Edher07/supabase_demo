@@ -5,7 +5,7 @@ from mvc.controllers.contactos import Contactos
 from mvc.controllers.insertar_contacto import InsertarContacto
 from mvc.controllers.ver_contacto import VerContacto
 from mvc.controllers.actualizar_contacto import ActualizarContacto
-from mvc.controllers.borrar_contacto import BorrarContacto
+from mvc.controllers.borrar_contacto import BorrarContactos
 
 web.config.debug = False 
 
@@ -15,7 +15,7 @@ urls = (
     '/insertar_contacto', 'InsertarContacto',
     '/ver_contacto/(.*)', 'VerContacto',
     '/actualizar_contacto/(.*)', 'ActualizarContacto',
-    '/borrar_contacto/(.*)', 'BorrarContacto'
+    '/borrar_contacto/(.*)', 'BorrarContactos'
 )
 
 app = web.application(urls, globals())

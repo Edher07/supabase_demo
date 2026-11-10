@@ -1,0 +1,36 @@
+{
+  "filePath": "mvc/views/borrar_contacto.html",
+  "lines": [
+    {
+      "line": 0,
+      "author": "mixed",
+      "confidence": 0.3146153846153845,
+      "aiEdits": 1,
+      "humanEdits": 1,
+      "lastEditType": "human",
+      "lastEditTimestamp": 1794291286757,
+      "signals": {
+        "typingRhythm": 0.675,
+        "editSize": 0.95,
+        "cursorMovement": 0.3,
+        "editSequence": 0.71,
+        "undoFrequency": 0.5,
+        "extensionSource": 0.5,
+        "velocityProfile": 0.5,
+        "selectionPattern": 0.5,
+        "pastePattern": 0.5,
+        "deletionPattern": 0.5,
+        "pausePattern": 0.5
+      }
+    }
+  ],
+  "summary": {
+    "totalLines": 1,
+    "aiLines": 0,
+    "humanLines": 0,
+    "mixedLines": 1,
+    "aiPercentage": 0,
+    "humanPercentage": 0
+  },
+  "lastUpdated": 1794293518083
+}

@@ -18,13 +18,13 @@ $def with (datos)
     <tbody>
         $for registro in datos:
             <tr>
-                <td>$registro["id_contactos"]</td>
+                <td>$registro["id"]</td>
                 <td>$registro["nombre"]</td>
                 <td>$registro["email"]</td>
                 <td>$registro["telefono"]</td>
-                <td><a href = "ver_contacto/$registro['id_contactos']">Ver</a></td>
-                <td><a href = "actualizar_contacto/$registro['id_contactos']">Actualizar</a></td>
-                <td><a href = "borrar_contacto/$registro['id_contactos']">Borrar</a></td>
+                <td><a href = "ver_contacto/$registro['id']">Ver</a></td>
+                <td><a href = "actualizar_contacto/$registro['id']">Actualizar</a></td>
+                <td><a href = "borrar_contacto/$registro['id']">Borrar</a></td>
 
             </tr>
     </tbody>

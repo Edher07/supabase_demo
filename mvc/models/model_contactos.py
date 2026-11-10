@@ -24,7 +24,7 @@ class ModelContactos:
 
     def buscarContactos(self, id_contactos: int):
         # SELECT * FROM contactos WHERE id_contacto = <id>;
-        response = self.supabase.table("contactos").select("*").eq("id_contactos", id_contactos).execute()
+        response = self.supabase.table("contactos").select("*").eq("id", id_contactos).execute()
         
         return response.data
         
@@ -37,12 +37,12 @@ class ModelContactos:
         
 
     def borrarContactos(self, id_contactos: int):
-        response = self.supabase.table("contactos").delete("*").eq("id_contactos", id_contactos).execute()
-       
+        response = self.supabase.table("contactos").delete().eq("id", id_contactos).execute()
+    
         return response.data
 
     def actualizarContactos(self, id_contactos: int , nombre: str, email: str , telefono: str):
-        response = self.supabase.table("contactos").update({"nombre": nombre, "email": email, "telefono": telefono,}).eq("id_contactos", id_contactos).execute()
+        response = self.supabase.table("contactos").update({"nombre": nombre, "email": email, "telefono": telefono,}).eq("id", id_contactos).execute()
         
         return response.data
 
