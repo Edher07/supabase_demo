@@ -1,0 +1,9 @@
+2026-11-12 13:40:30 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:40:30 [ERROR] mvc.models.model_contactos: ERROR 101: 'id_contacto'
+2026-11-12 13:41:01 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 13:41:01 [ERROR] mvc.models.model_contactos: ERROR 101: 'id_contacto'
+2026-11-12 18:28:32 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 18:28:37 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A&id=eq.5 "HTTP/2 200 OK"
+2026-11-12 18:28:39 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-12 18:28:41 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A&id=eq.5 "HTTP/2 200 OK"
+2026-11-12 18:28:43 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
