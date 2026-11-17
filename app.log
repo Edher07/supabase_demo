@@ -7,3 +7,4 @@
 2026-11-12 18:28:39 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
 2026-11-12 18:28:41 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A&id=eq.5 "HTTP/2 200 OK"
 2026-11-12 18:28:43 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
+2026-11-17 09:36:41 [INFO] httpx: HTTP Request: GET https://fsbmjqqzipsinutsrflv.supabase.co/rest/v1/contactos?select=%2A "HTTP/2 200 OK"
