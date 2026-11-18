@@ -1,17 +1,17 @@
 {
-  "filePath": "mvc/sql/agenda.sql",
+  "filePath": "mvc\\sql\\agenda.sql",
   "lines": [
     {
-      "line": 1,
+      "line": 22,
       "author": "human",
-      "confidence": 0.8400000000000001,
+      "confidence": 0.7,
       "aiEdits": 0,
-      "humanEdits": 1,
+      "humanEdits": 2,
       "lastEditType": "human",
-      "lastEditTimestamp": 1793842799355,
+      "lastEditTimestamp": 1795018027317,
       "signals": {
         "typingRhythm": 0.5,
-        "editSize": 0.07999999999999996,
+        "editSize": 0.15000000000000002,
         "cursorMovement": 0.5,
         "editSequence": 0.5,
         "undoFrequency": 0.5,
@@ -32,5 +32,5 @@
     "aiPercentage": 0,
     "humanPercentage": 100
   },
-  "lastUpdated": 1793847734885
+  "lastUpdated": 1795018028346
 }
