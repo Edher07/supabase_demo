@@ -57,7 +57,7 @@ class ModelContactos:
             logger.error("ERROR 104: %s", error)
             print(f"ERROR 104: {str(error)}")
 
-    def actualizarContactos(self, id_contactos: int, nombre: str, email: str, telefono: str,foto: str):
+    def actualizarContactos(self, id_contactos: int, nombre: str, email: str, telefono: str, foto: str = ""):
         try:
 
             response = self.supabase.table("contactos").update({"nombre": nombre, "email": email, "telefono": telefono,"foto": foto}).eq("id", id_contactos).execute()
